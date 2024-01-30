@@ -1,0 +1,19 @@
+/* This is a class attripute */
+.class-txt {
+    background-color: #ffb6c1;
+    font-family: Verdana, "DeJaVu Sans", sans-serif; /* If underwaved, put in ""*/
+}
+/* This is a class nested class attripute */
+.class-txt.cooler {
+    font-size: 24px; 
+}
+
+#two {
+    color: #0000ff; 
+    font-size: 36px;
+}
+
+#four {
+    background-color: #90ee90; 
+    font-size: 24px;
+}
