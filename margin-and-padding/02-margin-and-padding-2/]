@@ -1,14 +1,13 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .card {
   width: 400px;
+  height: auto;
   background: #fff;
-
-  /*  We use padding to set background visibility: ; */
-  padding: 5px;
 }
 
 .title {

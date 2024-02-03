@@ -1,33 +1,26 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  marign-bottom: 10px;
+
 }
 
 .card {
   width: 400px;
   background: #fff;
-
-  /*  We use padding to set background visibility: ; */
-  padding: 5px;
+  margin: 16 auto;
 }
 
 .title {
   background: #e3f4ff;
-
-  /* Can You explain, why it was 21smth. before */
-  margin: 8px;
 }
-
 
 .content {
   background: #e3f4ff;
-  margin: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
-  text-align: center;
-  margin: 8px;
 }
 
 button {
