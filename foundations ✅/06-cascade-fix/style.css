@@ -40,3 +40,8 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+#confirm-button {
+  background-color: rgba(55, 126, 34, 255);
+  color: #ffffff;
+}

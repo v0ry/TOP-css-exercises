@@ -1,19 +1,18 @@
 body {
   background: #eee;
   font-family: sans-serif;
-  box-sizing: border-box;
 }
 
 .card {
   width: 400px;
-  height: auto;
   background: #fff;
+  /*  We use padding to set background visibility: ; */
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
-
-  /* Can You explain, why it was 21smth. before */
+  /* Spasce betweeen two boxes */
   margin: 8px;
 }
 
@@ -32,5 +31,4 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
-  /* Center Button */
 }
