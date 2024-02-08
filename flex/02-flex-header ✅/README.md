@@ -18,3 +18,11 @@ wide:
 - Your solution does not use floats, inline-block, or absolute positioning.
 
 - Note: For this exercise, it's completely acceptable to not match the font-family.
+
+
+----------------------
+Answer:
+1. In head, change to space between!
+2. ul display as flex
+3. third
+

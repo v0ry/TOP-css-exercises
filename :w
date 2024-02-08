@@ -12,12 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* Change layout from row to column  */
   display: flex;
-  /* CHANGE LAYOUT FROM ROW TO COLUMN  */ 
+  /* Sipace apart... Created tow new parent */
   justify-content: space-between;
-
-  /* So we could have used, padding: 8px; here, to make sure that our logo and profile picture don't look clued to the side of the window. This would havbe been simpler, as it'd have needed less code lines */
-  }
+}
 
 .profile-image {
   background: rebeccapurple;
@@ -28,18 +27,12 @@ body {
   margin: 15px;
 }
 
-.notifications {
-  /* Make backgroundcolor bigger than the text */
-  padding: 10px;
-}
-
 /* This is a child  */
 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  margin-left: 10px;
 }
 
 button {
@@ -54,31 +47,20 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-  margin-right:15px;
+  margin:10px;
 }
 
 ul {
   list-style-type: none;
-  /* We want the parent to display flex, because that it aplies to all children */
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  margin-left: 15px;
-  padding-left: 0px ;
 }
 
 /* This is a parent */
-#left {
-  /* display flex == enable flex adjustments */
+.header #left {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  color: blue; /* Does not take effect, why? */
 } 
 
-#right {
+.header #right {
   /* Use display flex, as default is flex-direction: column; */
-  display: flex; 
-  align-items: center;
-  justify-content: flex-end;
+  display: flex;
 }
