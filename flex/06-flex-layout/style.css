@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+#page-container {
+  position: relative;
+  height: 100vh;
+}
 
 body {
   height: 100vh;
@@ -24,4 +28,28 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+.header {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; /* Align across the main axis vertically */
+  align-items: center;  /* Align across the x-axis */ 
+}
+
+.footer {
+  background-color: #EEEEEE;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.left-linsk {
+  list-style-type: none;
 }
